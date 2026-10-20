@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="popupTitle">SaltMark</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="../icons/favicon.svg" alt="" width="32" height="32">
+        <div>
+          <h1>SaltMark</h1>
+          <p data-i18n="popupSubtitle">Add this page to your vault</p>
+        </div>
+      </header>
+
+      <section class="page-card" aria-live="polite">
+        <p id="page-title" class="page-title"></p>
+        <p id="page-host" class="page-host"></p>
+      </section>
+
+      <button id="save-bookmark" class="primary-action" type="button" disabled
+              data-i18n="saveBookmarkButton">
+        Save Bookmark
+      </button>
+
+      <p id="outcome" class="outcome" role="status" aria-live="polite"></p>
+
+      <label class="setting-row">
+        <span data-i18n="saveToUnsortedLabel">Save to Unsorted</span>
+        <input id="silent-mode" type="checkbox">
+      </label>
+
+      <div class="shortcut-row">
+        <span data-i18n="shortcutLabel">Quick Save</span>
+        <div class="shortcut-controls">
+          <kbd id="shortcut"></kbd>
+          <button id="configure-shortcut" class="text-action" type="button"
+                  data-i18n="configureShortcutButton">
+            Configure
+          </button>
+        </div>
+      </div>
+
+      <footer>
+        <span class="lock-icon" aria-hidden="true"></span>
+        <span data-i18n="protectedTransferLabel">Protected local transfer</span>
+      </footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

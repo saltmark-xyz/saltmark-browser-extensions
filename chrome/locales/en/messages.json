@@ -1,0 +1,23 @@
+{
+  "extensionName": { "message": "SaltMark" },
+  "extensionDescription": { "message": "Save Chrome and Brave bookmarks to SaltMark Direct." },
+  "actionTitle": { "message": "Open SaltMark" },
+  "commandDescription": { "message": "Save current tab to SaltMark" },
+  "popupTitle": { "message": "SaltMark" },
+  "popupSubtitle": { "message": "Add this page to your vault" },
+  "settingsTitle": { "message": "SaltMark" },
+  "saveBookmarkButton": { "message": "Save Bookmark" },
+  "saveToUnsortedLabel": { "message": "Save to Unsorted" },
+  "shortcutLabel": { "message": "Quick Save" },
+  "shortcutButton": { "message": "Configure Keyboard Shortcut" },
+  "configureShortcutButton": { "message": "Configure" },
+  "shortcutNotSet": { "message": "Not set" },
+  "protectedTransferLabel": { "message": "Protected local transfer" },
+  "sendingStatus": { "message": "Sending…" },
+  "sentStatus": { "message": "Sent to SaltMark." },
+  "sendFailureStatus": { "message": "Couldn’t send. Open SaltMark and check Settings → Browser." },
+  "unsupportedPageTitle": { "message": "This page can’t be added" },
+  "unsupportedPageStatus": { "message": "Only HTTP and HTTPS pages can be added." },
+  "preferenceFailureStatus": { "message": "Couldn’t update this setting." },
+  "shortcutFailureStatus": { "message": "Couldn’t open browser shortcut settings." }
+}

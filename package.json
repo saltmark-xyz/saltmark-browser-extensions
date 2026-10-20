@@ -1,0 +1,27 @@
+{
+  "name": "saltmark-browser-extensions",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build:chrome": "node scripts/build-chrome.mjs",
+    "build:chrome-identity": "node scripts/build-chrome-identity.mjs",
+    "build:firefox": "node scripts/build-firefox.mjs",
+    "lint:chrome": "node scripts/lint-chrome.mjs",
+    "lint:chrome-identity": "node scripts/lint-chrome-identity.mjs",
+    "lint:firefox": "node scripts/lint-firefox.mjs",
+    "package:chrome": "node scripts/package-chrome.mjs",
+    "package:chrome-identity": "node scripts/package-chrome-identity.mjs",
+    "package:firefox": "node scripts/package-firefox.mjs",
+    "test": "npm run build:chrome && npm run build:firefox && node --test tests/shared/*.test.mjs tests/firefox/*.test.mjs tests/chrome/*.test.mjs",
+    "test:chrome": "npm run build:chrome && node --test tests/chrome/*.test.mjs",
+    "test:chrome-identity": "node --test tests/chrome/identity-composition.test.mjs tests/chrome/identity-contract.test.mjs",
+    "verify:chrome": "npm run test && npm run lint:chrome",
+    "verify:chrome-identity": "npm run test:chrome-identity && npm run build:chrome-identity && npm run lint:chrome-identity",
+    "verify:firefox": "npm run test && npm run lint:firefox"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

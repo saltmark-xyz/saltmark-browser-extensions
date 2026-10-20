@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "0.1.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "minimum_chrome_version": "99",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXy19b9OGtY/CYm0RIS3QNmNS5KJXJKprgkn1+7absE2vS81zn3UDnbtzxA4dM23mgbWvLlixlcpyrEjaPu1Nk3zaUHDTmAVUT1LkPsdiAyT55iLtdvacYiKmME+Ic1KSNLrodySITF4KUns+3yU+V3RL+boW9+bz9mYXbfgIDKm2yAvN84+78pqYJvy5LXhaD1o1WaQFhePzkVQQfzMiePQXmbemad7FvQTYfpnR263ceXIUS0n2boABxpKdAFe7QmcMz6Tals6Jb33IIPhcc796c0uAqtvDxrXm6eE+LjWq65frfKVzffZxh0COCN03Ib+hXTkA8MejAzU6/79bQIDAQAB",
+  "permissions": [
+    "activeTab",
+    "nativeMessaging",
+    "storage",
+    "favicon"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_icon": {
+      "16": "icons/favicon-16.png",
+      "32": "icons/favicon-32.png"
+    },
+    "default_popup": "popup/popup.html"
+  },
+  "commands": {
+    "save-current-tab": {
+      "suggested_key": {
+        "mac": "MacCtrl+Shift+S"
+      },
+      "description": "__MSG_commandDescription__"
+    }
+  },
+  "icons": {
+    "16": "icons/favicon-16.png",
+    "32": "icons/favicon-32.png",
+    "48": "icons/favicon-48.png",
+    "128": "icons/favicon-128.png"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  }
+}

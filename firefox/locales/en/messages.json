@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "SaltMark for Firefox",
+    "description": "Extension name shown by Firefox."
+  },
+  "extensionDescription": {
+    "message": "Save the current Firefox tab to SaltMark Direct.",
+    "description": "Extension description shown by Firefox."
+  },
+  "actionTitle": {
+    "message": "Open SaltMark",
+    "description": "Toolbar action title opening the SaltMark popup."
+  },
+  "commandDescription": {
+    "message": "Save current tab to SaltMark",
+    "description": "Keyboard command description."
+  },
+  "settingsTitle": {
+    "message": "SaltMark for Firefox",
+    "description": "Settings page title."
+  },
+  "saveToUnsortedLabel": {
+    "message": "Save to Unsorted",
+    "description": "Label for saving directly to Unsorted without presenting the bookmark editor."
+  },
+  "shortcutButton": {
+    "message": "Configure Keyboard Shortcut",
+    "description": "Button opening Firefox shortcut settings."
+  },
+  "popupTitle": {
+    "message": "SaltMark",
+    "description": "Popup document title."
+  },
+  "popupSubtitle": {
+    "message": "Add this page to your vault",
+    "description": "Subtitle in the SaltMark popup."
+  },
+  "saveBookmarkButton": {
+    "message": "Save Bookmark",
+    "description": "Primary popup action sending the current page to SaltMark."
+  },
+  "shortcutLabel": {
+    "message": "Quick Save",
+    "description": "Label for the direct-save keyboard shortcut."
+  },
+  "configureShortcutButton": {
+    "message": "Configure",
+    "description": "Compact button opening Firefox shortcut settings."
+  },
+  "shortcutNotSet": {
+    "message": "Not set",
+    "description": "Shown when the direct-save command has no shortcut."
+  },
+  "protectedTransferLabel": {
+    "message": "Protected local transfer",
+    "description": "Accurate local transport protection label in the popup footer."
+  },
+  "sendingStatus": {
+    "message": "Sending…",
+    "description": "Popup status while a bookmark request is being sent."
+  },
+  "sentStatus": {
+    "message": "Sent to SaltMark.",
+    "description": "Popup status after SaltMark accepts the request."
+  },
+  "sendFailureStatus": {
+    "message": "Couldn’t send. Open SaltMark and check Settings → Browser.",
+    "description": "Closed recovery guidance after a native delivery failure."
+  },
+  "unsupportedPageTitle": {
+    "message": "This page can’t be added",
+    "description": "Page-card title for unsupported browser pages."
+  },
+  "unsupportedPageStatus": {
+    "message": "Only HTTP and HTTPS pages can be added.",
+    "description": "Popup status for unsupported current-tab URLs."
+  },
+  "preferenceFailureStatus": {
+    "message": "Couldn’t update this setting.",
+    "description": "Popup status after Save to Unsorted preference persistence fails."
+  },
+  "shortcutFailureStatus": {
+    "message": "Couldn’t open Firefox shortcut settings.",
+    "description": "Popup status after shortcut settings cannot be opened."
+  }
+}

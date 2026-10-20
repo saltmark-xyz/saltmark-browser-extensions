@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <style>
+    .mark {
+      fill: #147a4a;
+    }
+
+    .divider {
+      stroke: #111110;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mark {
+        fill: #62e6a5;
+      }
+
+      .divider {
+        stroke: #f4f2ed;
+      }
+    }
+  </style>
+  <defs>
+    <clipPath id="resolved-half">
+      <rect x="8" width="8" height="16"/>
+    </clipPath>
+  </defs>
+  <path
+    class="mark"
+    fill-rule="evenodd"
+    clip-path="url(#resolved-half)"
+    d="M3 1h10v14l-5-3-5 3V1Zm2 2v8l3-2 3 2V3H5Z"
+  />
+  <path
+    class="mark"
+    d="M1 1h2v2H1zM5 2h1v1H5zM2 5h2v1H2zM5 7h2v2H5zM1 10h1v2H1zM4 13h2v1H4z"
+  />
+  <path class="divider" d="M8 0v16" fill="none" stroke-width="1"/>
+</svg>
